@@ -1,0 +1,97 @@
+/*float定位*/
+	body{
+    background-color:#fff;
+    font-family:"微软雅黑";
+    font-size:15px;
+    padding: 20px;
+    margin: 0px auto;
+   
+}
+#allcontent{
+	overflow: auto;
+	background-color: #eee;
+	min-width: 600px;
+	border: 1px solid #999;
+}
+#left{
+	float: left;
+	position: relative;
+	margin: 20px;
+	width:160px;
+	padding: 20px;
+	background-color: #fff;
+    border: 1px solid #999;
+}
+#left img{
+	float: left;
+	position: relative;
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+}
+#right{
+	float: right;
+	width: 118px;
+	background: #fff;
+    border: 1px solid #999;
+    margin: 20px;
+}
+#right img{
+	margin: 20px;
+	display: block;
+	border: 1px solid #999;
+
+}
+#content{
+	padding: 20px;
+	margin:20px 160px 20px 240px;
+	background-color: #fff;
+	border: 1px solid #999;
+}
+#content p{margin: 0;}
+/*position定位*/
+#totalcontent{
+	position: relative;
+	background-color: #eee;
+	min-width: 600px;
+	border: 1px solid #999;
+}
+#po_left{
+	position: absolute;
+	margin: 20px;
+	width:160px;
+	padding: 20px;
+	background-color: #fff;
+    border: 1px solid #999;
+}
+#po_left img{
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+}
+#po_left span{
+	position: absolute;
+	right:20px;
+	top: 20px;
+}
+#po_right{
+	position: absolute;
+	right: 0;
+	width: 118px;
+	background: #fff;
+    border: 1px solid #999;
+    margin: 20px;
+}
+#po_right img{
+	margin: 20px;
+	display: block;
+	border: 1px solid #999;
+
+}
+#po_content{
+	padding: 20px;
+	margin:20px 160px auto 240px;
+	background-color: #fff;
+	border: 1px solid #999;
+}
+#po_content p{margin: 0;}
