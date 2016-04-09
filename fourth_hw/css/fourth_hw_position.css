@@ -1,0 +1,29 @@
+#box,#circle_lefttop,#circle_rightbottom{padding: 0;margin: 0;}
+#box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+	overflow: hidden;
+	}
+#circle_lefttop,#circle_rightbottom{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background-color: #fc0;
+}
+#circle_rightbottom{
+	margin-top: 50px;
+	margin-left:150px;
+}
+#circle_lefttop{
+	margin-top: -150px;
+	margin-left: -250px;
+}
